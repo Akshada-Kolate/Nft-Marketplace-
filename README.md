@@ -1,15 +1,27 @@
-# Basic Sample Hardhat Project
+# Coding a NFT marketplace
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+What is this repo about?
+Learn to code smart contract that compiles with ERC-721 standard in Solidity.
+Practice Solidity in real project after finishing all basic course on CryptoZombies
+Frontend design is not the focus of this project.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+What did I learn?
+Understand why ERC721 standard is written this way by coding the interface and contracts myself.
+Writing automated test with Truffle, to test smart contract before deploying on a blockchain.
+Connect frontend to MetaMask wallet.
+Connect frontend to deployed blockchain (local test environment).
+How to mint an NFT on frontend.
+
+
+Animated GIF of the project
+it shows when click on the mint button, MetaMask wallet will confirm the transaction, and then a new token is minted. 
+
+
+Technologies & libraries used in this project
+MetaMask
+Solidity
+Hardhat
+Chai
+Web3
+React
